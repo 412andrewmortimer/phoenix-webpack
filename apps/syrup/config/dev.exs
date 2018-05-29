@@ -11,7 +11,7 @@ config :syrup, SyrupWeb.Endpoint,
   code_reloader: true,
   check_origin: false,
   watchers: [ yarn: ["run", "watch",
-              cd: Path.expand("../assets", __DIR__)]]
+              cd: Path.expand("../", __DIR__)]]
 
 # ## SSL Support
 #
